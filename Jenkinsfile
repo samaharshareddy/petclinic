@@ -264,4 +264,3 @@ def checkoutRepo(baseUrl, repo, branch, gitCredsId) {
     ])
   }
 }
-``
