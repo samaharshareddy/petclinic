@@ -127,7 +127,7 @@ node {
               sh """
                 mvn -B -ntp sonar:sonar \
                   -Dsonar.projectKey=${projectKey} \
-                  -Dsonar.host.url=http://54.191.55.239:9000 \
+                  -Dsonar.host.url=https://54.191.55.239:9000 \
                   -Dsonar.login=\${SONAR_TOKEN}
               """
             }
