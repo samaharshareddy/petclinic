@@ -1,6 +1,6 @@
 node {
 
-  /*************** Job Parameters + Push Trigger ******************/
+  /*************** Job Parameters + Push Trigger ********************/
   properties([
     // ADDED: GitHub push trigger so webhook can start this job
     pipelineTriggers([githubPush()]),
