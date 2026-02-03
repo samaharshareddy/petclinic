@@ -32,7 +32,12 @@
     <nohttp-checkstyle.version>0.0.11</nohttp-checkstyle.version>
     <spring-format.version>0.0.47</spring-format.version>
   </properties>
-
+  <distributionManagement>
+    <repository>
+      <id>nexus-releases</id>
+      <url>http://54.191.114.190:8081/repository/maven-releases/</url>
+    </repository>
+  </distributionManagement>
   <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
